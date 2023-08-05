@@ -1,0 +1,14 @@
+# HOW TO ADD IMAGE ? 
+import turtle
+tr = turtle.Turtle()
+wn = turtle.Screen()
+wn.addshape('python2.gif')
+tr.shape('python2.gif')
+wn.mainloop()
+
+# HOW TO ADD BACKGROUND IMAGE ? 
+import turtle
+tr = turtle.Turtle()
+wn = turtle.Screen()
+wn.bgpic("python1.gif")
+wn.mainloop()

@@ -1,0 +1,19 @@
+#pypi.org --- for more Python Package information
+
+# #pypi.org to SEARCH FOR MORE PACKAGES OF PYTHON
+
+'''
+PascalCase 
+camelCase
+snake_case
+'''
+from prettytable import PrettyTable
+table = PrettyTable()
+table.add_column("Name",["XYZ","PQR","ABC","YUI"])
+table.add_column("Type",["HUMAN","INSAAN","ANIMAL","PARROT"])
+
+
+#to change the bydefault alignment 
+table.align = "l"
+
+print(table) 
