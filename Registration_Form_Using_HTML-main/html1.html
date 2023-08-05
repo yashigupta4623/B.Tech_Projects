@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<style>
+    body {
+        background-image: url('hand-painted-watercolor-pastel-sky-background_23-2148902771.webp');
+    }
+.button{
+        width: 10%;
+        padding: 0.3%;
+        margin-left: 720px;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <!--<body style="color:aqua"> for changing the font color-->
+    <h1 style="background: yellow" align="center"> Registeration Form </h1>
+    <!--<pre> hjfd </pre>-->
+    <form>
+        <table border="1" height="500" width="500" align="center">
+            <tr>
+                <!--first row-->
+                <th font-size="45">FirstName</th>
+                <td><input type="text" placeholder="write your firstname"></td>
+            </tr>
+            <tr>
+                <th>LastName</th>
+                <td><input type="text" placeholder="write your lastname"></td>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>Phone No.</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+            <tr>
+                <th>Highest Qualifiaction</th>
+                <td><input type="text"></td>
+            </tr>
+            <th>Gender</th>
+            <td>Male <input type="radio" name="gender" value="male">
+                Female<input type="radio" name="gender" value="female">
+                Other<input type="radio" name="gender" value="other"></td>
+            </tr>
+            <tr>
+                <th>Language</th>
+                <td>
+                    <select name='language'>
+                        <option value="">Select language</option>
+                        <option value="">English</option>
+                        <option value="">Hindi</option>
+                        <option value="">German</option>
+                        <option value="">French</option>
+                        <option value="">Japnese</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Zip Code</th>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>About</th>
+                <td><textarea name="about" id="" placeholder="write about yourself in brief" cols="20" rows="5"></textarea></td>
+            </tr>
+        </table>
+        <a href="html1.1.html" target="_blank">
+            <!--<input type='submit' name="submit" id="submit">-->
+            <div class="button">
+                Submit
+            </div>
+        </a>
+    </form>
+</body>
+</html>
